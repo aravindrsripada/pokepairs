@@ -1,10 +1,10 @@
-import { Tile } from "../utils/data-tiles";
+import { Card } from "../utils/data-cards";
 
-const TileCard = ({ tile }: {
-    tile: Tile
+const TileCard = ({ card }: {
+    card: Card
 }) => {
     return <div>
-
+        {card.mon}
     </div>
 }
 
